@@ -692,13 +692,6 @@ full_treble_only(`
     coredomain
     -shell
     userdebug_or_eng(`-su')
-  } vndservice_manager_type:service_manager *;
-')
-full_treble_only(`
-  neverallow {
-    coredomain
-    -shell
-    userdebug_or_eng(`-su')
   } vndservicemanager:binder *;
 ')
 
